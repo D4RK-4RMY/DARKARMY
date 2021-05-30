@@ -24,7 +24,9 @@
   
   
   
-  ### https://th31ucif3r.in/
+  <p align="center">
+  <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmy.png" alt="darkarmy Logo"/>
+</p>
   
   
   
