@@ -30,39 +30,150 @@
 
   
   
+ 
+## Menu
+
+- Information Gathering
+- Vulnerabilty Analysis
+- Wireless Testing
+- Exploitation Tools
+- Sniffing & Spoofing
+- Android Hacking
+- Brute Force Tools
+- Phishing Tools
+- OS installer
+- Credit
+- Installing All Tools at Onces
+
+
+### Information Gathering:
+
+- Lazy Recon
+- Red Hawk
+- Th3inspector
+- WPGrabInfo
+- BillCipher
+- Gasmask
+- Webkiller
+- FBI
+- D-Tect
+- UserRecon
+- CMS Scanner
+- XSStrike
+- Crips
+- Dork - Google Dorks Passive Vulnerability Auditor
+
+### Vulnerabilty Analysis:
+
+- OwScan
+- Click Jacking Scanner
+- TM-Scanner
+- AndroBug Framework
+- SQLI Scan
+- Commix
+- WpSeku
+- RouterSploit Framework
+- Nikto Web Server Scanner
+
+### Wireless Testing:
+
+- Reaver
+- Pixiewps
+- Bluetooth Honeypot
+
+### Exploitation Tools:
+
+- A-RAT Exploit
+- Golden-Eye
+- Hulk[Dos Tool]
+- CMSeek
+- MetaSploit Framework
+- TM-Venom
+- Zarp-Local Network Tool
+- AutoSploit
+- EggShell
+- Brutal
+
+### Sniffing & Spoofing:
+
+- Setoolkit
+- SSLtrip
+- pyPISHER
+- SMTP Mailer
+- Python Packet Sniffer
+
+### Android Hacking:
+
+- AndroRat
+- Csploit
+- Hackode
+
+### Brute Force Tools:
+
+- SocialBox
+- BluForce-FB
+- FaceBoom
+- Instagram
+- Instabrute
+- Brute-force-gmail
+- GmailBruterV2
+- WPBrute
+- Cpanel-Bruter
+- RDP-Brute
+
+### Phishing Tools:
+
+- Shellphish
+- HiddenEye
+- SocialFish
+- Zphisher
+- Blackeye
+
+### OS installer:
+
+- Ubuntu
+- Debian
+- Kali Linux
+- Kali Nethunter
+- Backbox
+- Fedora
+- Cent Os
+- Opensuse Leap
+- OpenSUSE tumbleweed
+- Arch linux
+- Black Arch
+- Alpine
+
+
+# Installation
+
+## Installation [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
+
+```bash
+cd darkarmy
+chmod +x setup.sh    or   darkarmy.sh
+./setup.sh       or    ./darkarmy.sh
+
+OR
+
+bash setup.sh    or  bash darkarmy.sh
+```
+
+## Installation
+
+Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
+NOTE : if you run first time then first run setup.sh .
+
+```bash
+bash darkarmy.sh
+OR
+chmod +x darkarmy.sh
+./darkarmy.sh
+```
   
-  <p align="center">
+<p align="center">
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmy.png" alt="darkarmy Logo"/>
-</p>
-  
-  
-## Install
-
-```bash
-pip install darkarmy
-```
-
-## Update
-
-```bash
-pip install --upgrade darkarmy
-```
-
-## Usage
-
-```bash
-usage: darkarmy [-h] [-i] [-s]
-
-A Penetration Testing Framework
-
-optional arguments:
-  -h, --help     show this help message and exit
-  -i, --info     gets darkarmy info
-  -s, --suggest  suggest a tool
-```
-
-  
-  
+</p>  
   
   
   ### Development By :
