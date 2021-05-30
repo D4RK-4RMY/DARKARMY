@@ -36,9 +36,7 @@
 
 Developer / Author: [D4RK4RMY](https://github.com/D4RK-4RMY)
 
-### <h2 align="center">😈 Follow 😈 </h2>
+### <h2 align="center">😈 Visit 😈 </h2>
 <p align="center">
- <a href="https://wa.me/916370174459"><img title="whatsapp" src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-
-
+<a href="https://darkarmy.live/"><img title="D4RK4RMY" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
 </p>
