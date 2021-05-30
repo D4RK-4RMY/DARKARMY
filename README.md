@@ -11,6 +11,32 @@
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/logo.png" alt=" Logo" />
 </p>
 
+
+## Install
+
+```bash
+pip install darkarmy
+```
+
+## Update
+
+```bash
+pip install --upgrade darkarmy
+```
+
+## Usage
+
+```bash
+usage: darkarmy [-h] [-i] [-s]
+
+A Penetration Testing Framework
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -i, --info     gets darkarmy info
+  -s, --suggest  suggest a tool
+```
+
   <br>
   
   ### <p align="center">DARKARMY<p align="center">
