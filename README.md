@@ -166,6 +166,7 @@ Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
 NOTE : if you run first time then first run setup.sh .
 
 ```bash
+git clone https://github.com/D4RK-4RMY/DARKARMY.git
 bash darkarmy.sh
 OR
 chmod +x darkarmy.sh
