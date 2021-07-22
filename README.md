@@ -25,7 +25,7 @@
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
  
 ###### <p align="center">*This is official repository maintained by Us.*
-###### <p align="center"> *[**D4RK4RMY**](https://darkarmy.live/) ❤️*
+###### <p align="center"> *[**D4RK4RMY**](https://darkarmy.live/) ❤️* By *[**1ucif3r**](https://hritikkumbhar.me/)
 ###### <p align="center"> *You can check our [WebSite](https://darkarmy.live/)✌*
 
   
