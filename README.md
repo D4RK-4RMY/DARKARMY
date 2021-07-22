@@ -180,7 +180,7 @@ chmod +x darkarmy.sh
   
   ### Development By :
 
-Developer / Author: [D4RK4RMY](https://github.com/D4RK-4RMY)
+Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
 ### <h2 align="center">😈 Visit 😈 </h2>
 <p align="center">
