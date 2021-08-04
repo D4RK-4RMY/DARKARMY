@@ -11,9 +11,6 @@
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/logo.png" alt=" Logo" />
 </p>
 
-
-
-
   <br>
   
   ### <p align="center">DARKARMY<p align="center">
@@ -28,71 +25,52 @@
 ###### <p align="center"> [**D4RK4RMY**](https://darkarmy.live/) ❤️ By [**1ucif3r**](https://hritikkumbhar.me/)
 ###### <p align="center"> *You can check our [WebSite](https://darkarmy.live/)✌*
 
-  
-###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">  
- 
-## Menu
+###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">
+
+## DARKARMY Menu:
 
 - Information Gathering
-- Vulnerabilty Analysis
+- Password Attacks
 - Wireless Testing
 - Exploitation Tools
 - Sniffing & Spoofing
-- Android Hacking
-- Brute Force Tools
-- Phishing Tools
-- OS installer
-- Credit
-- Installing All Tools at Onces
-
+- Web Hacking
+- Private Web Hacking
+- Post Exploitation
+- Update The DARKARMY
 
 ### Information Gathering:
 
-- Lazy Recon
-- Red Hawk
-- Th3inspector
-- WPGrabInfo
-- BillCipher
-- Gasmask
-- Webkiller
-- FBI
-- D-Tect
-- UserRecon
-- CMS Scanner
+- Nmap
+- Setoolkit
+- Port Scanning
+- Host To IP
+- wordpress user
+- CMS scanner
 - XSStrike
-- Crips
 - Dork - Google Dorks Passive Vulnerability Auditor
+- Scan A server's Users
+- Crips
 
-### Vulnerabilty Analysis:
+### Password Attacks:
 
-- OwScan
-- Click Jacking Scanner
-- TM-Scanner
-- AndroBug Framework
-- SQLI Scan
-- Commix
-- WpSeku
-- RouterSploit Framework
-- Nikto Web Server Scanner
+- Cupp
+- Ncrack
 
 ### Wireless Testing:
 
-- Reaver
-- Pixiewps
-- Bluetooth Honeypot
+- reaver
+- pixiewps
+- Fluxion
 
 ### Exploitation Tools:
 
-- A-RAT Exploit
-- Golden-Eye
-- Hulk[Dos Tool]
-- CMSeek
-- MetaSploit Framework
-- TM-Venom
-- Zarp-Local Network Tool
-- AutoSploit
-- EggShell
-- Brutal
+- ATSCAN
+- sqlmap
+- Shellnoob
+- commix
+- FTP Auto Bypass
+- jboss-autopwn
 
 ### Sniffing & Spoofing:
 
@@ -100,79 +78,75 @@
 - SSLtrip
 - pyPISHER
 - SMTP Mailer
-- Python Packet Sniffer
 
-### Android Hacking:
+### Web Hacking:
 
-- AndroRat
-- Csploit
-- Hackode
+- Drupal Hacking
+- Inurlbr
+- Wordpress & Joomla Scanner
+- Gravity Form Scanner
+- File Upload Checker
+- Wordpress Exploit Scanner
+- Wordpress Plugins Scanner
+- Shell and Directory Finder
+- Joomla! 1.5 - 3.4.5 remote code execution
+- Vbulletin 5.X remote code execution
+- BruteX - Automatically brute force all services running on a target
+- Arachni - Web Application Security Scanner Framework
 
-### Brute Force Tools:
+### Private Web Hacking:
 
-- SocialBox
-- BluForce-FB
-- FaceBoom
-- Instagram
-- Instabrute
-- Brute-force-gmail
-- GmailBruterV2
-- WPBrute
-- Cpanel-Bruter
-- RDP-Brute
+- Get all websites
+- Get joomla websites
+- Get wordpress websites
+- Control Panel Finder
+- Zip Files Finder
+- Upload File Finder
+- Get server users
+- SQli Scanner
+- Ports Scan (range of ports)
+- ports Scan (common ports)
+- Get server Info
+- Bypass Cloudflare
 
-### Phishing Tools:
+### Post Exploitation:
 
-- Shellphish
-- HiddenEye
-- SocialFish
-- Zphisher
-- Blackeye
-
-### OS installer:
-
-- Ubuntu
-- Debian
-- Kali Linux
-- Kali Nethunter
-- Backbox
-- Fedora
-- Cent Os
-- Opensuse Leap
-- OpenSUSE tumbleweed
-- Arch linux
-- Black Arch
-- Alpine
-
+- Shell Checker
+- POET
+- Weeman
 
 # Installation
 
 ## Installation [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 
-```bash
-git clone https://github.com/D4RK-4RMY/DARKARMY.git
-cd darkarmy
-chmod +x setup.sh    or   darkarmy.sh
-./setup.sh       or    ./darkarmy.sh
+This Tool Must Run As ROOT !!!
 
-OR
+`git clone https://github.com/D4RK-4RMY/DARKARMY.git`
 
-bash setup.sh    or  bash darkarmy.sh
-```
+`cd DARKARMY`
+
+`chmod +x install.sh`
+
+`./install.sh`
+
+That's it.. you can execute tool by typing **DARKARMY**
 
 ## Installation
 
-Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
-NOTE : if you run first time then first run setup.sh .
+Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
-```bash
-git clone https://github.com/D4RK-4RMY/DARKARMY.git
-bash darkarmy.sh
-OR
-chmod +x darkarmy.sh
-./darkarmy.sh
-```
-  
+`pkg install git`
+
+`pkg install python`
+
+`git clone https://github.com/D4RK-4RMY/DARKARMY.git`
+
+`cd DARKARMY`
+
+`chmod +x darkarmy.py`
+
+`python2 darkarmy.py`
+
 <p align="center">
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmy.png" alt="darkarmy Logo"/>
 </p>  
@@ -183,6 +157,7 @@ chmod +x darkarmy.sh
 Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
 ### <h2 align="center">😈 Visit 😈 </h2>
+
 <p align="center">
 <a href="https://darkarmy.live/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
 </p>
