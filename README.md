@@ -147,6 +147,9 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 `python2 darkarmy.py`
 
+  ### YouTube Demo :
+  https://youtu.be/7xvcBLsE6uo
+
 <p align="center">
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmy.png" alt="darkarmy Logo"/>
 </p>  
