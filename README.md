@@ -147,7 +147,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 `python2 darkarmy.py`
 
-  ### YouTube Demo :
+  ## YouTube Demo :
   https://youtu.be/7xvcBLsE6uo
 
 <p align="center">
@@ -155,7 +155,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 </p>  
   
   
-  ## Development By :
+  ### Development By :
 
 Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
