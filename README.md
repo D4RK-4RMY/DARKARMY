@@ -16,7 +16,7 @@
   ### <p align="center">DARKARMY<p align="center">
 <p align=center>
   <a href="https://www.instagram.com/th3_1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
-  <a href="https://www.instagram.com/th3_1ucif3r"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0" ></a>
+  <a href="https://www.instagram.com/th3_1ucif3r"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=2.0&x2=0" ></a>
   <a href="https://www.instagram.com/th3_1ucif3r"><img title="Stars" src="https://img.shields.io/github/stars/D4RK-4RMY/DARKARMY?style=social" ></a>
   <a href="https://github.com/1ucif3r/network/members"><img title="Forks" src="https://img.shields.io/github/forks/D4RK-4RMY/DARKARMY?color=red&style=flat-square"></a>
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
