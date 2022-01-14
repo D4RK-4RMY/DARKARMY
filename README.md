@@ -4,7 +4,7 @@
   <br>
   
   <p align=center>
-  <a href="https://www.instagram.com/bhikan_deshmukh"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+  <a href="https://www.instagram.com/0x1ucif3r"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
   </p>
   
   <p align="center">
@@ -15,14 +15,14 @@
   
   ### <p align="center">DARKARMY<p align="center">
 <p align=center>
-  <a href="https://www.instagram.com/th3_1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
-  <a href="https://www.instagram.com/th3_1ucif3r"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=2.0&x2=0" ></a>
-  <a href="https://www.instagram.com/th3_1ucif3r"><img title="Stars" src="https://img.shields.io/github/stars/D4RK-4RMY/DARKARMY?style=social" ></a>
+  <a href="https://www.instagram.com/0x1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
+  <a href="https://www.instagram.com/0x1ucif3r"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=2.0&x2=0" ></a>
+  <a href="https://www.instagram.com/0x1ucif3r"><img title="Stars" src="https://img.shields.io/github/stars/D4RK-4RMY/DARKARMY?style=social" ></a>
   <a href="https://github.com/1ucif3r/network/members"><img title="Forks" src="https://img.shields.io/github/forks/D4RK-4RMY/DARKARMY?color=red&style=flat-square"></a>
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
  
 ###### <p align="center">*This is official repository maintained by Us.*
-###### <p align="center"> [**D4RK4RMY**](https://darkarmy.live/) ❤️ By [**1ucif3r**](https://hritikkumbhar.me/)
+###### <p align="center"> [**D4RK4RMY**](https://darkarmy.live/) ❤️ By [**1ucif3r**](https://1ucif3r.me/)
 ###### <p align="center"> *You can check our [WebSite](https://darkarmy.live/)✌*
 
 ###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">
