@@ -19,9 +19,9 @@ echo "
 ██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██  ██  ██    ██    
 ██████  ██   ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██    ██    "
 echo "                                                               "                                                                    
-echo -e "${GREEN}                                          ~@~ Coded By 1ucif3r ~@~ ${NC}"
+echo -e "${GREEN}                                          ~#~ Coded By 1ucif3r ~#~ ${NC}"
 echo ""
-echo -e "${YELLOW} www.darkarmy.live | Instagram.com/1ucif3r | Github.com/D4RK-4RMY ${NC} "
+echo -e "${YELLOW} www.darkarmy.live | Instagram.com/0x1ucif3r | Github.com/D4RK-4RMY ${NC} "
 echo ""
 echo "---------------------------------------------------------------------------------------"
 echo ""
@@ -64,13 +64,13 @@ rm DARKARMY;
 if [ -d "$INSTALL_DIR" ] ;
 then
     echo "";
-    echo "[✔] Successfuly Installed !!! [✔]";
+    echo "[✔] Successfuly Installed !! ENJOY !![✔]";
     echo "";
     echo "[✔]========================================================================[✔]";
-    echo "[✔] ✔✔✔ All Is Done!! you can execute tool by typing DARKARMY !! ✔✔✔ [✔]";
+    echo "[✔] ✔✔✔ All Is Done!! you can execute tool by typing DARKARMY ! ENJOY ✔✔ [✔]";
     echo "[✔]========================================================================[✔]";
     echo "";
 else
-    echo "[✘] Installation Failed !!! [✘]";
+    echo "[✘] Installation Failed Do Properly Again NIGGA !!! [✘]";
     exit
 fi
