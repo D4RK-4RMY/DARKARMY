@@ -22,8 +22,8 @@
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
  
 ###### <p align="center">*This is official repository maintained by Us.*
-###### <p align="center"> [**D4RK4RMY**](https://darkarmy.live/) ❤️ By [**1ucif3r**](https://1ucif3r.me/)
-###### <p align="center"> *You can check our [WebSite](https://darkarmy.live/)✌*
+###### <p align="center"> [**D4RK4RMY**](https://dark4rmy.in/) ❤️ By [**1ucif3r**](https://1ucif3r.me/)
+###### <p align="center"> *You can check our [WebSite](https://dark4rmy.in/)✌*
 
 ###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">
 
@@ -164,5 +164,5 @@ Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 ### <h2 align="center">😈 Visit 😈 </h2>
 
 <p align="center">
-<a href="https://darkarmy.live/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
+<a href="https://dark4rmy.in/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
 </p>
