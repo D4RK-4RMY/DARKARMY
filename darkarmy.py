@@ -105,7 +105,7 @@ darkarmylogo = """\033[0m
  \033[91m"""
 def menu():
     print (darkarmylogo + """\033[1m
-   [!] Coded By 1ucif3r [!] https://darkarmy.live [!]
+   [!] Coded By 1ucif3r [!] https://dark4rmy.in [!]
 \033[0m
    {1}--Information Gathering
    {2}--Password Attacks
