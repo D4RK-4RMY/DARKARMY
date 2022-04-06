@@ -161,7 +161,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
-### <h2 align="center">😈 Visit 😈 </h2>
+### <h2 align="center">😈 Visit 😈  </h2>
 
 <p align="center">
 <a href="https://dark4rmy.in/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
