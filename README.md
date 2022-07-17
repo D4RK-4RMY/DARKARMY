@@ -129,7 +129,9 @@ This Tool Must Run As ROOT !!!
 
 `./install.sh`
 
-That's it.. you can execute tool by typing **DARKARMY**
+`python2 darkarmy.py` (NOTE: For now use python2 to run this I will update it to the latest version of python soon . Thanks !)
+
+T̶h̶a̶t̶'s̶ i̶t̶.. y̶o̶u̶ c̶a̶n̶ e̶x̶e̶c̶u̶t̶e̶ t̶o̶o̶l̶ b̶y̶ t̶y̶p̶i̶n̶g̶ *̶*̶D̶A̶R̶K̶A̶R̶M̶Y̶*̶*̶
 
 ## Installation
 
