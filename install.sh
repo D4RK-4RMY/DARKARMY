@@ -55,7 +55,7 @@ echo "[✔] Installing ...";
 echo "";
 git clone https://github.com/D4RK-4RMY/DARKARMY.git "$INSTALL_DIR";
 echo "#!/bin/bash
-python $INSTALL_DIR/darkarmy.py" '${1+"$@"}' > DARKARMY;
+python2 $INSTALL_DIR/darkarmy.py" '${1+"$@"}' > DARKARMY;
 chmod +x DARKARMY;
 sudo cp DARKARMY /usr/bin/;
 rm DARKARMY;
