@@ -1,31 +1,61 @@
 #!/bin/bash
+
+set -e
+
 clear
 
 BLACK='\e[30m'
 RED='\e[31m'
-GREEN='\e[32m'
+GREEN='\e[92m'
 YELLOW='\e[33m'
+ORANGE='\e[93m'
 BLUE='\e[34m'
 PURPLE='\e[35m'
-CYAN='\e[36m'
+CYAN='\e[96m'
 WHITE='\e[37m'
 NC='\e[0m'
-echo""
-echo -e "${RED}                                                                "                                                                                  
-echo "
-██████   █████  ██████  ██   ██  █████  ██████  ███    ███ ██    ██ 
-██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ████  ████  ██  ██  
-██   ██ ███████ ██████  █████   ███████ ██████  ██ ████ ██   ████   
-██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██  ██  ██    ██    
-██████  ██   ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██    ██    "
-echo "                                                               "                                                                    
-echo -e "${GREEN}                                          ~#~ Coded By 1ucif3r ~#~ ${NC}"
-echo ""
-echo -e "${YELLOW} www.dark4rmy.in | Instagram.com/0x1ucif3r | Github.com/D4RK-4RMY ${NC} "
-echo ""
-echo "---------------------------------------------------------------------------------------"
-echo ""
-echo -e "${RED}[!] This Tool Must Run As ROOT [!]${NC}"
+purpal='\033[35m'
+
+
+clear
+
+counter=0
+(
+
+while :
+do
+cat <<EOF
+XXX
+$counter
+Loading DARKARMY INSTALLER ....( $counter%):
+XXX
+EOF
+
+(( counter+=20 ))
+[ $counter -eq 100 ] && break
+
+sleep 1
+done
+) |
+whiptail --title " DARKARMY " --gauge "Please wait" 7 70 0
+
+
+
+clear
+
+echo -e "${RED} "
+echo ""                                                                         
+echo "  ██████   █████  ██████  ██   ██  █████  ██████  ███    ███ ██    ██        ";
+echo "  ██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ████  ████  ██  ██         "; 
+echo "  ██   ██ ███████ ██████  █████   ███████ ██████  ██ ████ ██   ████          ";
+echo "  ██   ██ ██   ██ ██   ██ ██  ██  ██   ██ ██   ██ ██  ██  ██    ██           ";
+echo "  ██████  ██   ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██    ██  V2.1     ";
+echo "                                                                             ";
+echo "                                     Welcome To DARKARMY Installer           ";
+echo -e "${GREEN}===================================================================${NC} "                                                                                                                                                                                                                                
+echo -e "${BLUE}   www.dark4rmy.in | Instagram.com/0x1ucif3r | Github.com/D4RK-4RMY ${NC}"
+echo -e "${GREEN}===================================================================${NC}          "
+echo -e "${RED}                                   [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo ""
 echo -e "${CYAN}[>] Press ENTER to Install DARKARMY, CTRL+C to Abort.${NC}"
 read INPUT
@@ -64,12 +94,12 @@ rm DARKARMY;
 if [ -d "$INSTALL_DIR" ] ;
 then
     echo "";
-    echo "[✔] Successfuly Installed !! ENJOY !![✔]";
-    echo "";
-    echo "[✔]========================================================================[✔]";
-    echo "[✔] ✔✔✔ All Is Done!! you can execute tool by typing DARKARMY ! ENJOY ✔✔ [✔]";
-    echo "[✔]========================================================================[✔]";
-    echo "";
+        echo "[✔] Successfuly Installed !!! \n\n";
+        echo -e $GREEN "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
+        echo            "       [+]                                                             [+]"
+        echo -e $GREEN "       [+]     ✔✔✔ Now Just Type In Terminal (DARKARMY) ✔✔✔         [+]"
+        echo            "       [+]                                                             [+]"
+        echo -e $GREEN "       [+]+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[+]"
 else
     echo "[✘] Installation Failed Do Properly Again NIGGA !!! [✘]";
     exit
