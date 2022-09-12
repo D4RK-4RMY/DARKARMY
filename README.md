@@ -154,7 +154,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
   ## ScreenShot :
 
 <p align="center">
-  <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/da.png" alt="darkarmy Logo"/>
+  <img src="https://github.com/1ucif3r/DARKARMY/blob/main/da.png" alt="darkarmy Logo"/>
 </p>  
   
   
