@@ -77,7 +77,7 @@ shells = ['wso.php', 'shell.php', 'an.php', 'hacker.php', 'lol.php', 'up.php', '
           'sh.php', 'pk.php', 'mad.php', 'x00x.php', 'worm.php', '1337worm.php', 'config.php', 'x.php', 'haha.php']
 upload = []
 yes = set(['yes', 'y', 'ye', 'Y'])
-no = set(['no', 'n'])
+no = set(['no', 'n', 'NO'])
 
 
 def logo():
