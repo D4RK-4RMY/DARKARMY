@@ -149,7 +149,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 `python2 darkarmy.py`
 
   ## YouTube Demo :
-  https://youtu.be/7xvcBLsE6uo
+  https://youtu.be/qFXNP80rEQc
   
   ## ScreenShot :
 
