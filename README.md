@@ -8,7 +8,7 @@
   </p>
   
   <p align="center">
-  <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/logo.png" alt=" Logo" />
+  <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmylogo-removebg-preview%20(2).png" alt=" Logo" />
 </p>
 
   <br>
