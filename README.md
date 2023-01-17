@@ -166,7 +166,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 ## ScreenShot :
 
 <p align="center">
-  <img src="https://github.com/1ucif3r/DARKARMY/blob/main/demo.png" alt="darkarmy Logo"/>
+  <img src="https://github.com/1ucif3r/DARKARMY/blob/main/Darkarmydemo.png" alt="darkarmy Logo"/>
 </p>
 
 ### Development By :
