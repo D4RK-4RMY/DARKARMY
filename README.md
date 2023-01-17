@@ -1,45 +1,51 @@
 <p align=center>
   <img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg"></p>
-  
-  <br>
-  
-  <p align=center>
+
+<br>
+
+<p align=center>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
   </p>
-  
-  <p align="center">
+
+<p align="center">
   <img src="https://github.com/D4RK-4RMY/DARKARMY/blob/main/darkarmylogo-removebg-preview%20(2).png" alt=" Logo" />
 </p>
 
-  <br>
-  
-  ### <p align="center">DARKARMY<p align="center">
+<br>
+
+### `<p align="center">`DARKARMY`<p align="center">`
+
 <p align=center>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=2.0&x2=0" ></a>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="Stars" src="https://img.shields.io/github/stars/D4RK-4RMY/DARKARMY?style=social" ></a>
   <a href="https://github.com/1ucif3r/network/members"><img title="Forks" src="https://img.shields.io/github/forks/D4RK-4RMY/DARKARMY?color=red&style=flat-square"></a>
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
- 
-###### <p align="center">*This is official repository maintained by Us.*
-###### <p align="center"> [**D4RK4RMY**](https://dark4rmy.in/) ❤️ By [**1ucif3r**](https://www.instagram.com/0x1ucif3r/)
-###### <p align="center"> *You can check our [WebSite](https://dark4rmy.in/)✌*
 
-###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">
+###### `<p align="center">`*This is official repository maintained by Us.*
 
-## DARKARMY Menu:
+###### `<p align="center">` [**D4RK4RMY**](https://dark4rmy.in/) ❤️ By [**1ucif3r**](https://www.instagram.com/0x1ucif3r/)
+
+###### `<p align="center">` *You can check our [WebSite](https://dark4rmy.in/)✌*
+
+###### `<p align="center">`DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs`<p align="center">`
+
+## DARKARMY MENU :
 
 - Information Gathering
 - Password Attacks
 - Wireless Testing
 - Exploitation Tools
-- Sniffing & Spoofing
+- Social Engineering
 - Web Hacking
-- Private Web Hacking
-- Post Exploitation
+- DDOS Tools
+- Remote Administrator Tools (RAT)
+- Bug Bounty Tools
+- DarkArmy Tools
+- 1ucif3r's Tools
 - Update The DARKARMY
 
-### Information Gathering:
+### Information Gathering :
 
 - Nmap
 - Setoolkit
@@ -52,18 +58,18 @@
 - Scan A server's Users
 - Crips
 
-### Password Attacks:
+### Password Attacks :
 
 - Cupp
 - Ncrack
 
-### Wireless Testing:
+### Wireless Testing :
 
 - reaver
 - pixiewps
 - Fluxion
 
-### Exploitation Tools:
+### Exploitation Tools :
 
 - ATSCAN
 - sqlmap
@@ -72,14 +78,15 @@
 - FTP Auto Bypass
 - jboss-autopwn
 
-### Sniffing & Spoofing:
+### Social Engineering :
 
 - Setoolkit
 - SSLtrip
 - pyPISHER
-- SMTP Mailer
+- ZPHISHER
+- NEW TOOLS SOON
 
-### Web Hacking:
+### Web Hacking :
 
 - Drupal Hacking
 - Inurlbr
@@ -94,26 +101,31 @@
 - BruteX - Automatically brute force all services running on a target
 - Arachni - Web Application Security Scanner Framework
 
-### Private Web Hacking:
+### DDOS Tools :
 
-- Get all websites
-- Get joomla websites
-- Get wordpress websites
-- Control Panel Finder
-- Zip Files Finder
-- Upload File Finder
-- Get server users
-- SQli Scanner
-- Ports Scan (range of ports)
-- ports Scan (common ports)
-- Get server Info
-- Bypass Cloudflare
+- SOON IN NEXT UPDATE
 
-### Post Exploitation:
+### Remote Administrator Tools (RAT) :
 
-- Shell Checker
-- POET
-- Weeman
+- SOON IN NEXT UPDATE
+
+### Bug Bounty Tools :
+
+* SOON IN NEXT UPDATE
+
+### DarkArmy Tools :
+
+* DarkScan - Automate all the NMAP scans
+* DarkTor (Need Update)
+
+### 1ucif3r's Tools :
+
+* AirCrackAuto - A Automate script for WiFi hacking .
+* Obfuscator - Simple Python obfuscator.
+
+* SQLiScanner (SOON)
+* Crypter (SOON)
+
 
 # Installation
 
@@ -128,9 +140,8 @@ This Tool Must Run As ROOT !!!
 `chmod +x install.sh`
 
 `./install.sh`
-  
-That's it. You can execute tool by typing **DARKARMY**
 
+That's it. You can execute tool by typing **DARKARMY**
 
 ## Installation
 
@@ -148,23 +159,23 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 `python2 darkarmy.py`
 
-  ## YouTube Demo :
+## YouTube Demo :
+
   https://youtu.be/VpylcEl1Y3Y
-  
-  ## ScreenShot :
+
+## ScreenShot :
 
 <p align="center">
   <img src="https://github.com/1ucif3r/DARKARMY/blob/main/demo.png" alt="darkarmy Logo"/>
-</p>  
-  
-  
-  ### Development By :
+</p>
+
+### Development By :
 
 Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
 Contributor : [Mr.robot](https://github.com/0xMrR0b0t)
 
-### <h2 align="center">😈 Visit 😈  </h2>
+### `<h2 align="center">`😈 Visit 😈  `</h2>`
 
 <p align="center">
 <a href="https://dark4rmy.in/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
