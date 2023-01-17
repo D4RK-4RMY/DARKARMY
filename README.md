@@ -13,7 +13,7 @@
 
 <br>
 
-### <p align="center">`DARKARMY`<p align="center">
+### <p align="center">DARKARMY<p align="center">
 
 <p align=center>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
@@ -28,7 +28,7 @@
 
 ###### <p align="center"> *You can check our [WebSite](https://dark4rmy.in/)✌*
 
-###### <p align="center">`DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs`<p align="center">
+###### <p align="center">DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs<p align="center">
 
 ## DARKARMY MENU :
 
