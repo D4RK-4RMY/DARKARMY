@@ -41,11 +41,23 @@ from time import sleep
 os.system('clear')
 
 
+class color:
+    HEADER = '\033[95m'
+    IMPORTANT = '\33[35m'
+    NOTICE = '\033[33m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    RED = '\033[91m'
+    END = '\033[0m'
+    UNDERLINE = '\033[4m'
+    LOGGING = '\33[34m'
+
 def menu():
     print ("""
 MIT License
 
-Copyright (c) 2021 DARKARMY
+Copyright (c) 2023 DARKARMY
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -80,29 +92,21 @@ yes = set(['yes', 'y', 'ye', 'Y'])
 no = set(['no', 'n'])
 
 
-def logo():
-    print """
+
+
+color_random=[color.HEADER,color.IMPORTANT,color.NOTICE,color.OKBLUE,color.OKGREEN,color.WARNING,color.RED,color.END,color.UNDERLINE,color.LOGGING]
+random.shuffle(color_random)
+darkarmylogo = color_random[0] + '''
+    ______  ___  ______ _   __  ___  _________  ____   __ 
+    |  _  \/ _ \ | ___ \ | / / / _ \ | ___ \  \/  \ \ / / 
+    | | | / /_\ \| |_/ / |/ / / /_\ \| |_/ / .  . |\ V /  
+    | | | |  _  ||    /|    \ |  _  ||    /| |\/| | \ /   
+    | |/ /| | | || |\ \| |\  \| | | || |\ \| |  | | | |   
+    |___/ \_| |_/\_| \_\_| \_/\_| |_/\_| \_\_|  |_/ \_/ 
     
-  - Powered by_  __ _____      
-/  |            / _|____ |     
-`| | _   _  ___| |_    / /_ __ 
- | || | | |/ __|  _|   \ \ '__|
-_| || |_| | (__| | .___/ / |   
-\___/\__,_|\___|_| \____/|_|   
-"""
-
-
-darkarmylogo = """\033[0m
-  
-    ______  ___  ______ _   __  ___  _________  ____   __
-    |  _  \/ _ \ | ___ \ | / / / _ \ | ___ \  \/  \ \ / /
-    | | | / /_\ \| |_/ / |/ / / /_\ \| |_/ / .  . |\ V / 
-    | | | |  _  ||    /|    \ |  _  ||    /| |\/| | \ /  
-    | |/ /| | | || |\ \| |\  \| | | || |\ \| |  | | | |  
-    |___/ \_| |_/\_| \_\_| \_/\_| |_/\_| \_\_|  |_/ \_/  
-                                                     
-                                                                
- \033[91m"""
+                        A Penetration Testing Framework  
+                                                                                                                                                                                                                   
+'''
 def menu():
     print (darkarmylogo + """\033[1m
    [!] Coded By 1ucif3r [!] https://dark4rmy.in [!]
@@ -111,15 +115,17 @@ def menu():
    {2}--Password Attacks
    {3}--Wireless Testing
    {4}--Exploitation Tools
-   {5}--Sniffing & Spoofing
-   {6}--Android Hacking
-   {7}--Web Hacking
-   {8}--Private Web Hacking
-   {9}--Post Exploitation
+   {5}--Social Engineering
+   {6}--Web Hacking
+   {7}--DDOS Tools
+   {8}--Remote Administrator Tools (RAT)
+   {9}--Bug Bounty Tools
+   {10}-DarkArmy Tools
+   {11}-1ucif3r's Tools
    {0}--Update The DARKARMY 
    {99}-Exit
  """)
-    choice = raw_input("DARKARMY~# ")
+    choice = raw_input("Dark4rmy >> ")
     os.system('clear')
     if choice == "1":
         info()
@@ -130,13 +136,19 @@ def menu():
     elif choice == "4":
         exp()
     elif choice == "5":
-        snif()
+        social()
     elif choice == "6":
         webhack()
     elif choice == "7":
-        dzz()
+        ddos()
     elif choice == "8":
-        postexp()
+        rat()
+    elif choice == "9":
+        bugbounty()
+    elif choice == "10":
+        dtools()
+    elif choice == "11":
+        lucifer()
     elif choice == "0":
         updatedarkarmy()
     elif choice == "99":
@@ -145,6 +157,142 @@ def menu():
         menu()
     else:
         menu()
+        
+        
+def ddos():
+    print('''\033[91m
+                      
+    .dP"Y8  dP"Yb   dP"Yb  88b 88 
+    `Ybo." dP   Yb dP   Yb 88Yb88 
+    o.`Y8b Yb   dP Yb   dP 88 Y88 
+    8bodP'  YbodP   YbodP  88  Y8 
+ 
+    [!] I WILL ADD THIS TOOLS IN NEXT UPDATE [!]
+         
+ \033[0m''')
+    print("  {99}-Back To Main Menu \n\n")
+    choice2 = raw_input("DDOS >> ")
+
+    if choice2 == "99":
+        clearScr()
+        menu()
+    elif choice2 == "":
+        clearScr()
+        menu()
+    else:
+        clearScr()
+        
+        
+def rat():
+    print('''\033[91m
+                      
+    .dP"Y8  dP"Yb   dP"Yb  88b 88 
+    `Ybo." dP   Yb dP   Yb 88Yb88 
+    o.`Y8b Yb   dP Yb   dP 88 Y88 
+    8bodP'  YbodP   YbodP  88  Y8 
+ 
+    [!] I WILL ADD THIS TOOLS IN NEXT UPDATE [!]
+         
+ \033[0m''')
+    print("  {99}-Back To Main Menu \n\n")
+    choice2 = raw_input("RAT >> ")
+
+    if choice2 == "99":
+        clearScr()
+        menu()
+    elif choice2 == "":
+        clearScr()
+        menu()
+    else:
+        clearScr()
+    
+
+def bugbounty():
+    print('''\033[91m
+                      
+    .dP"Y8  dP"Yb   dP"Yb  88b 88 
+    `Ybo." dP   Yb dP   Yb 88Yb88 
+    o.`Y8b Yb   dP Yb   dP 88 Y88 
+    8bodP'  YbodP   YbodP  88  Y8 
+ 
+    [!] I WILL ADD THIS TOOLS IN NEXT UPDATE [!]
+         
+ \033[0m''')
+    print("  {99}-Back To Main Menu \n\n")
+    choice2 = raw_input("BugBounty >> ")
+
+    if choice2 == "99":
+        clearScr()
+        menu()
+    elif choice2 == "":
+        clearScr()
+        menu()
+    else:
+        clearScr()
+        
+        
+def lucifer():
+    print('''\033[91m
+                          
+      .d 88   88  dP""b8 88 888888 88888 88""Yb 
+    .d88 88   88 dP   `" 88 88__     .dP 88__dP 
+      88 Y8   8P Yb      88 88""   o `Yb 88"Yb  
+      88 `YbodP'  YboodP 88 88     YbodP 88  Yb 
+      
+       [!] Some of my Tools [!]
+         
+ \033[0m''')
+    print("   {1}--AirCrackAuto(Wifi Hacking)")
+    print("   {2}--Obfuscator")
+    print("   {3}--SQLiScanner (SOON)")
+    print("   {4}--Crypter (SOON) \n")
+    print("   {99}-Return to main menu \n\n ")
+    choice11 = raw_input("1ucif3r >> ")
+    os.system('clear')
+    if choice11 == "1":
+        clearScr()
+        aircrack()
+    if choice11 == "2":
+        clearScr()
+        obf()
+    if choice11 == "3":
+        clearScr()
+        sqliscanner()
+    if choice11 == "4":
+        clearScr()
+        crypter()
+    elif choice11 == "99":
+        clearScr()
+        menu()    
+    elif choice11 == "":
+        clearScr()
+        menu()
+    else:
+        clearScr()
+        
+def aircrack():
+    print ("A Automate script for WiFi hacking . You Need a Wifi Adaptor For this . ")
+    choiceupdate = raw_input("Continue Y / N: ")
+    if choiceupdate in yes:
+        os.system("git clone https://github.com/1ucif3r/aircrackauto.git")
+        os.system("cd aircrackauto && bash install.sh")
+        os.system("aircrackauto")
+        clearScr()
+        lucifer()
+        
+def obf():
+    os.system("git clone https://github.com/1ucif3r/Obfuscator.git")
+    os.system("cd Obfuscator && python3 obfuscator.py")
+    clearScr()
+    lucifer()
+    
+def sqliscanner():
+    clearScr()
+    lucifer()
+    
+def crypter():
+    clearScr()
+    lucifer()
 
 
 def updatedarkarmy():
@@ -167,23 +315,47 @@ def doork():
         os.system("cd doork && python doork.py -t %s -o log.log" % doorkt)
 
 
-def postexp():
-    clearScr()
-    print(darkarmylogo)
-    print("   {1}--Shell Checker")
-    print("   {2}--POET")
-    print("   {3}--Phishing Framework \n")
-    print("   {99}-Return to main menu \n\n ")
-    choice11 = raw_input("DARKARMY~# ")
-    os.system('clear')
-    if choice11 == "1":
-        sitechecker()
-    if choice11 == "2":
-        poet()
-    if choice11 == "3":
-        weeman()
-    elif choice11 == "99":
+def dtools():
+    print('''\033[91m
+                               
+8888b.     db    88""Yb 88  dP    db    88""Yb 8b    d8 Yb  dP 
+ 8I  Yb   dPYb   88__dP 88odP    dPYb   88__dP 88b  d88  YbdP  
+ 8I  dY  dP__Yb  88"Yb  88"Yb   dP__Yb  88"Yb  88YbdP88   8P   
+8888Y"  dP""""Yb 88  Yb 88  Yb dP""""Yb 88  Yb 88 YY 88  dP    
+
+       [!] Some Tools By Dark4rmy Team [!]
+         
+ \033[0m''')
+    print("   {1}--DarkScan ")
+    print("   {2}--DarkTor (Need Update)")
+    print("   {99}-Back To The Main Menu \n\n")
+    choice4 = raw_input("Dark4rmy >> ")
+    if choice4 == "1":
+        clearScr()
+        dscan()
+    if choice4 == "2":
+        clearScr()
+        dtor()
+    elif choice4 == "99":
+        clearScr()
         menu()
+    elif choice4 == "":
+        clearScr()
+        menu()
+    else:
+        clearScr()
+        menu()
+    
+def dscan():
+    os.system("git clone https://github.com/D4RK-4RMY/Darkscan.git")
+    os.system("cd Darkscan && python3 darkscan.py")
+    clearScr()
+    dtools()
+    
+def dtor():
+    clearScr()
+    dtools()
+    
 
 
 def scanusers():
@@ -359,7 +531,16 @@ def pixiewps():
 
 
 def webhack():
-    print(darkarmylogo)
+    print('''\033[91m
+          
+    Yb        dP 888888 88""Yb
+     Yb  db  dP  88__   88__dP
+      YbdPYbdP   88""   88""Yb
+       YP  YP    888888 88oodP
+    
+     [!] Web Hacking Tools [!]
+         
+ \033[0m''')
     print("   {1}--Drupal Hacking ")
     print("   {2}--Inurlbr")
     print("   {3}--Wordpress & Joomla Scanner")
@@ -374,7 +555,7 @@ def webhack():
         "   {11}-BruteX - Automatically brute force all services running on a target")
     print("   {12}-Arachni - Web Application Security Scanner Framework \n ")
     print("   {99}-Back To Main Menu \n")
-    choiceweb = raw_input("DARKARMY~# ")
+    choiceweb = raw_input("Web >> ")
     if choiceweb == "1":
         clearScr()
         maine()
@@ -412,10 +593,13 @@ def webhack():
         clearScr()
         arachni()
     elif choiceweb == "99":
+        clearScr()
         menu()
     elif choiceweb == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -484,8 +668,10 @@ def jboss():
         os.system('clear')
         exp()
     elif choice9 == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -608,7 +794,6 @@ def setoolkit():
     else:
         menu()
 
-
 def cupp():
     print("cupp is a password list generator ")
     print("Usage: python cupp.py -h")
@@ -621,8 +806,10 @@ def cupp():
         clearScr()
         passwd()
     elif choicecupp == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -639,8 +826,10 @@ def ncrack():
         clearScr()
         passwd()
     elif choicencrack == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -662,8 +851,10 @@ def reaver():
         clearScr()
         wire()
     elif creaver == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -679,8 +870,10 @@ def ssls():
     if cssl in no:
         snif()
     elif cssl == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -758,7 +951,17 @@ def shellnoob():
 
 
 def info():
-    print(darkarmylogo)
+
+    print('''\033[91m
+          
+    88 88b 88 888888  dP"Yb
+    88 88Yb88 88__   dP   Yb
+    88 88 Y88 88""   Yb   dP
+    88 88  Y8 88      YbodP
+    
+[!] Information Gathering Tools [!]
+         
+ \033[0m''')
     print("  {1}--Nmap ")
     print("  {2}--Setoolkit")
     print("  {3}--Port Scanning")
@@ -770,7 +973,7 @@ def info():
     print("  {9}--Scan A server's Users  ")
     print("  {10}-Crips\n  ")
     print("  {99}-Back To Main Menu \n\n")
-    choice2 = raw_input("DARKARMY~# ")
+    choice2 = raw_input("InformationG. >> ")
     if choice2 == "1":
         os.system('clear')
         nmap()
@@ -805,9 +1008,14 @@ def info():
         clearScr()
         scanusers()
     elif choice2 == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
+        
+        
+
 
 
 def cmsscan():
@@ -837,12 +1045,21 @@ def androidhash():
 
 
 def passwd():
-    print(darkarmylogo)
+    print('''\033[91m
+                               
+    88""Yb    db    .dP"Y8 .dP"Y8 Yb        dP 8888b.
+    88__dP   dPYb   `Ybo." `Ybo."  Yb  db  dP   8I  Yb
+    88"""   dP__Yb  o.`Y8b o.`Y8b   YbdPYbdP    8I  dY
+    88     dP""""Yb 8bodP' 8bodP'    YP  YP    8888Y"   
+
+    [!] Password Attack Tools [!]
+         
+ \033[0m''')
     print("   {1}--Cupp ")
     print("   {2}--Ncrack \n ")
 
     print("   {99}-Back To Main Menu \n")
-    choice3 = raw_input("DARKARMY~# ")
+    choice3 = raw_input("Passwd >> ")
     if choice3 == "1":
         clearScr()
         cupp()
@@ -853,10 +1070,10 @@ def passwd():
         clearScr()
         menu()
     elif choice3 == "":
+        clearScr()
         menu()
-    elif choice3 == "3":
-        fb()
     else:
+        clearScr()
         menu()
 		
 def bluepot():
@@ -881,13 +1098,22 @@ def fluxion():
         menu()
 	
 def wire():
-    print(darkarmylogo)
+    print('''\033[91m
+          
+    Yb        dP 88 88""Yb 888888 88     888888 .dP"Y8 .dP"Y8
+     Yb  db  dP  88 88__dP 88__   88     88__   `Ybo." `Ybo."
+      YbdPYbdP   88 88"Yb  88""   88  .o 88""   o.`Y8b o.`Y8b
+       YP  YP    88 88  Yb 888888 88ood8 888888 8bodP' 8bodP'
+    
+      [!] Wireless Testing Tools [!]
+         
+ \033[0m''')
     print("   {1}--reaver ")
     print("   {2}--pixiewps")
     print("   {3}--Bluetooth Honeypot GUI Framework")
     print("   {4}--Fluxion\n")
     print("   {99}-Back To The Main Menu \n\n")
-    choice4 = raw_input("DARKARMY~# ")
+    choice4 = raw_input("Wireless >> ")
     if choice4 == "1":
         clearScr()
         reaver()
@@ -895,19 +1121,34 @@ def wire():
         clearScr()
         pixiewps()
     if choice4 == "3":
+        clearScr()
         bluepot()
     if choice4 == "4":
-	fluxion()
+        clearScr()
+        fluxion()
+    
     elif choice4 == "99":
+        clearScr()
         menu()
     elif choice4 == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
 def exp():
-    print(darkarmylogo)
+    print('''\033[91m
+              
+    888888 Yb  dP 88""Yb 88      dP"Yb  88 888888 
+    88__    YbdP  88__dP 88     dP   Yb 88   88   
+    88""    dPYb  88"""  88  .o Yb   dP 88   88   
+    888888 dP  Yb 88     88ood8  YbodP  88   88   
+
+    [!] Exploitation Tools [!]
+         
+ \033[0m''')
     print("   {1}--ATSCAN")
     print("   {2}--sqlmap")
     print("   {3}--Shellnoob")
@@ -918,7 +1159,7 @@ def exp():
     print("   {8}--Bruteforce the Android Passcode given the hash and salt")
     print("   {9}--Joomla SQL injection Scanner \n ")
     print("   {99}-Go Back To Main Menu \n\n")
-    choice5 = raw_input("DARKARMY~# ")
+    choice5 = raw_input("Exploitation >> ")
     if choice5 == "2":
         clearScr()
         sqlmap()
@@ -941,25 +1182,40 @@ def exp():
         clearScr()
         bsqlbf()
     if choice5 == "8":
+        clearScr()
         androidhash()
     if choice5 == "9":
+        clearScr()
         cmsfew()
     elif choice5 == "99":
+        clearScr()
         menu()
     elif choice5 == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
-def snif():
-    print(darkarmylogo)
+def social():
+    print('''\033[91m
+              
+    .dP"Y8  dP"Yb   dP""b8 88    db    88     
+    `Ybo." dP   Yb dP   `" 88   dPYb   88     
+    o.`Y8b Yb   dP Yb      88  dP__Yb  88  .o 
+    8bodP'  YbodP   YboodP 88 dP""""Yb 88ood8 
+
+    [!] Social Engineering Tools [!]
+         
+ \033[0m''')
     print("   {1}--Setoolkit ")
     print("   {2}--SSLtrip")
     print("   {3}--pyPISHER")
-    print("   {4}--SMTP Mailer \n ")
+    print("   {4}--ZPISHER")
+    #print("   {4}--SMTP Mailer \n ")
     print("   {99}-Back To Main Menu \n\n")
-    choice6 = raw_input("DARKARMY~# ")
+    choice6 = raw_input("SocialEngineering >> ")
     if choice6 == "1":
         clearScr()
         setoolkit()
@@ -971,13 +1227,18 @@ def snif():
         pisher()
     if choice6 == "4":
         clearScr()
-        smtpsend()
+        zpisher()
+    #if choice6 == "4":
+        #clearScr()
+        #smtpsend()
     if choice6 == "99":
         clearScr()
         menu()
     elif choice6 == "":
+        clearScr()
         menu()
     else:
+        clearScr()
         menu()
 
 
@@ -1001,24 +1262,49 @@ def pisher():
     os.system("python pisher.py")
 
 
-menuu = darkarmylogo + """
+def zpisher():
+    print('''\033[91m
+                  
+    8888P 88""Yb 88  88 88 .dP"Y8 88  88 888888 88""Yb 
+      dP  88__dP 88  88 88 `Ybo." 88  88 88__   88__dP 
+     dP   88"""  888888 88 o.`Y8b 888888 88""   88"Yb  
+    d8888 88     88  88 88 8bodP' 88  88 888888 88  Yb 
+ 
+    [!] ZPhisher Tool [!]
+         
+ \033[0m''')
+    print("   {1}--Kali Linux ")
+    print("   {2}--Termux")
+    print("   {99}-Back To Main Menu \n")
+    choiceweb = raw_input("ZPhisher~# ")
+    if choiceweb == "1":
+        clearScr()
+        zpishkali()
+    if choiceweb == "2":
+        clearScr()
+        zpishtermux()
+    elif choiceweb == "99":
+        clearScr()
+        social()
+    elif choiceweb == "":
+        clearScr()
+        social()
+    else:
+        clearScr()
+        social()
 
-   {1}--Get all websites
-   {2}--Get joomla websites
-   {3}--Get wordpress websites
-   {4}--Control Panel Finder
-   {5}--Zip Files Finder
-   {6}--Upload File Finder
-   {7}--Get server users
-   {8}--SQli Scanner
-   {9}--Ports Scan (range of ports)
-   {10}-ports Scan (common ports)
-   {11}-Get server Info
-   {12}-Bypass Cloudflare
 
-   {99}-Back To Main Menu
-"""
-
+def zpishkali():
+    os.system("git clone https://github.com/htr-tech/zphisher.git")
+    os.system("cd zphisher && bash zphisher.sh")
+    clearScr()
+    social()
+    
+def zpishtermux():
+    os.system("pkg install tur-repo")
+    os.system("pkg install zphisher && zphisher")
+    clearScr()
+    social()
 
 def unique(seq):
     """
@@ -1039,351 +1325,6 @@ def clearScr():
         os.system('cls')
 
 
-class Fscan:
-    def __init__(self, serverip):
-        self.serverip = serverip
-        self.getSites(False)
-        print menuu
-        while True:
-            choice = raw_input('DARKARMY~# ')
-            if choice == '1':
-                self.getSites(True)
-            elif choice == '2':
-                self.getJoomla()
-            elif choice == '3':
-                self.getWordpress()
-            elif choice == '4':
-                self.findPanels()
-            elif choice == '5':
-                self.findZip()
-            elif choice == '6':
-                self.findUp()
-            elif choice == '7':
-                self.getUsers()
-            elif choice == '8':
-                self.grabSqli()
-            elif choice == '9':
-                ran = raw_input(' Enter range of ports, (ex : 1-1000) -> ')
-                self.portScanner(1, ran)
-            elif choice == '10':
-                self.portScanner(2, None)
-            elif choice == '11':
-                self.getServerBanner()
-            elif choice == '12':
-                self.cloudflareBypasser()
-            elif choice == '99':
-                menu()
-            con = raw_input(' Continue [Y/n] -> ')
-            if con[0].upper() == 'N':
-                exit()
-            else:
-                clearScr()
-                print menuu
-
-    def getSites(self, a):
-        """
-        get all websites on same server
-        from bing search
-        """
-        lista = []
-        page = 1
-        while page <= 101:
-            try:
-                bing = "http://www.bing.com/search?q=ip%3A" + \
-                    self.serverip + "+&count=50&first=" + str(page)
-                openbing = urllib2.urlopen(bing)
-                readbing = openbing.read()
-                findwebs = re.findall('<h2><a href="(.*?)"', readbing)
-                for i in range(len(findwebs)):
-                    allnoclean = findwebs[i]
-                    findall1 = re.findall('http://(.*?)/', allnoclean)
-                    for idx, item in enumerate(findall1):
-                        if 'www' not in item:
-                            findall1[idx] = 'http://www.' + item + '/'
-                        else:
-                            findall1[idx] = 'http://' + item + '/'
-                    lista.extend(findall1)
-
-                page += 50
-            except urllib2.URLError:
-                pass
-        self.sites = unique(lista)
-        if a:
-            clearScr()
-            print '[*] Found ', len(lista), ' Website\n'
-            for site in self.sites:
-                print site
-
-    def getWordpress(self):
-        """
-        get wordpress site using a dork the attacker
-        may do a password list attack (i did a tool for that purpose check my pastebin)
-        or scan for common vulnerabilities using wpscan for example (i did a simple tool
-        for multi scanning using wpscan)
-        """
-        lista = []
-        page = 1
-        while page <= 101:
-            try:
-                bing = "http://www.bing.com/search?q=ip%3A" + \
-                    self.serverip + "+?page_id=&count=50&first=" + str(page)
-                openbing = urllib2.urlopen(bing)
-                readbing = openbing.read()
-                findwebs = re.findall('<h2><a href="(.*?)"', readbing)
-                for i in range(len(findwebs)):
-                    wpnoclean = findwebs[i]
-                    findwp = re.findall('(.*?)\?page_id=', wpnoclean)
-                    lista.extend(findwp)
-                page += 50
-            except:
-                pass
-        lista = unique(lista)
-        clearScr()
-        print '[*] Found ', len(lista), ' Wordpress Website\n'
-        for site in lista:
-            print site
-
-    def getJoomla(self):
-        """
-        get all joomla websites using
-        bing search the attacker may bruteforce
-        or scan them
-        """
-        lista = []
-        page = 1
-        while page <= 101:
-            bing = "http://www.bing.com/search?q=ip%3A" + self.serverip + \
-                "+index.php?option=com&count=50&first=" + str(page)
-            openbing = urllib2.urlopen(bing)
-            readbing = openbing.read()
-            findwebs = re.findall('<h2><a href="(.*?)"', readbing)
-            for i in range(len(findwebs)):
-                jmnoclean = findwebs[i]
-                findjm = re.findall('(.*?)index.php', jmnoclean)
-                lista.extend(findjm)
-            page += 50
-        lista = unique(lista)
-        clearScr()
-        print '[*] Found ', len(lista), ' Joomla Website\n'
-        for site in lista:
-            print site
-############################
-# find admin panels
-
-    def findPanels(self):
-        """
-        find panels from grabbed websites
-        the attacker may do a lot of vulnerabilty
-        tests on the admin area
-        """
-        print "[~] Finding admin panels"
-        adminList = ['admin/', 'site/admin', 'admin.php/', 'up/admin/', 'central/admin/', 'whm/admin/', 'whmcs/admin/', 'support/admin/', 'upload/admin/', 'video/admin/', 'shop/admin/', 'shoping/admin/', 'wp-admin/', 'wp/wp-admin/', 'blog/wp-admin/', 'admincp/', 'admincp.php/', 'vb/admincp/', 'forum/admincp/', 'up/admincp/', 'administrator/',
-                     'administrator.php/', 'joomla/administrator/', 'jm/administrator/', 'site/administrator/', 'install/', 'vb/install/', 'dimcp/', 'clientes/', 'admin_cp/', 'login/', 'login.php', 'site/login', 'site/login.php', 'up/login/', 'up/login.php', 'cp.php', 'up/cp', 'cp', 'master', 'adm', 'member', 'control', 'webmaster', 'myadmin', 'admin_cp', 'admin_site']
-        clearScr()
-        for site in self.sites:
-            for admin in adminList:
-                try:
-                    if urllib.urlopen(site + admin).getcode() == 200:
-                        print " [*] Found admin panel -> ", site + admin
-                except IOError:
-                    pass
- ############################
- # find ZIP files
-
-    def findZip(self):
-        """
-        find zip files from grabbed websites
-        it may contain useful informations
-        """
-        zipList = ['backup.tar.gz', 'backup/backup.tar.gz', 'backup/backup.zip', 'vb/backup.zip', 'site/backup.zip', 'backup.zip', 'backup.rar', 'backup.sql', 'vb/vb.zip', 'vb.zip', 'vb.sql', 'vb.rar',
-                   'vb1.zip', 'vb2.zip', 'vbb.zip', 'vb3.zip', 'upload.zip', 'up/upload.zip', 'joomla.zip', 'joomla.rar', 'joomla.sql', 'wordpress.zip', 'wp/wordpress.zip', 'blog/wordpress.zip', 'wordpress.rar']
-        clearScr()
-        print "[~] Finding zip file"
-        for site in self.sites:
-            for zip1 in zipList:
-                try:
-                    if urllib.urlopen(site + zip1).getcode() == 200:
-                        print " [*] Found zip file -> ", site + zip1
-                except IOError:
-                    pass
-
-    def findUp(self):
-        """
-        find upload forms from grabbed
-        websites the attacker may succeed to
-        upload malicious files like webshells
-        """
-        upList = ['up.php', 'up1.php', 'up/up.php', 'site/up.php', 'vb/up.php', 'forum/up.php', 'blog/up.php', 'upload.php',
-                  'upload1.php', 'upload2.php', 'vb/upload.php', 'forum/upload.php', 'blog/upload.php', 'site/upload.php', 'download.php']
-        clearScr()
-        print "[~] Finding Upload"
-        for site in self.sites:
-            for up in upList:
-                try:
-                    if (urllib.urlopen(site + up).getcode() == 200):
-                        html = urllib.urlopen(site + up).readlines()
-                        for line in html:
-                            if re.findall('type=file', line):
-                                print " [*] Found upload -> ", site + up
-                except IOError:
-                    pass
-
-    def getUsers(self):
-        """
-        get server users using a method found by
-        iranian hackers , the attacker may
-        do a bruteforce attack on CPanel, ssh, ftp or
-        even mysql if it supports remote login
-        (you can use medusa or hydra)
-        """
-        clearScr()
-        print "[~] Grabbing Users"
-        userslist = []
-        for site1 in self.sites:
-            try:
-                site = site1
-                site = site.replace('http://www.', '')
-                site = site.replace('http://', '')
-                site = site.replace('.', '')
-                if '-' in site:
-                    site = site.replace('-', '')
-                site = site.replace('/', '')
-                while len(site) > 2:
-                    resp = urllib2.urlopen(
-                        site1 + '/cgi-sys/guestbook.cgi?user=%s' % site).read()
-                    if 'invalid username' not in resp.lower():
-                        print '\t [*] Found -> ', site
-                        userslist.append(site)
-                        break
-                    else:
-                        print site
-
-                    site = site[:-1]
-            except:
-                pass
-
-        clearScr()
-        for user in userslist:
-            print user
-
-    def cloudflareBypasser(self):
-        """
-        trys to bypass cloudflare i already wrote
-        in my blog how it works, i learned this
-        method from a guy in madleets
-        """
-        clearScr()
-        print "[~] Bypassing cloudflare"
-        subdoms = ['mail', 'webmail', 'ftp', 'direct', 'cpanel']
-        for site in self.sites:
-            site.replace('http://', '')
-            site.replace('/', '')
-            try:
-                ip = socket.gethostbyname(site)
-            except socket.error:
-                pass
-            for sub in subdoms:
-                doo = sub + '.' + site
-                print ' [~] Trying -> ', doo
-                try:
-                    ddd = socket.gethostbyname(doo)
-                    if ddd != ip:
-                        print ' [*] Cloudflare bypassed -> ', ddd
-                        break
-                except socket.error:
-                    pass
-
-    def getServerBanner(self):
-        """
-        simply gets the server banner
-        the attacker may benefit from it
-        like getting the server side software
-        """
-        clearScr()
-        try:
-            s = 'http://' + self.serverip
-            httpresponse = urllib.urlopen(s)
-            print ' [*] Server header -> ', httpresponse.headers.getheader('server')
-        except:
-            pass
-
-    def grabSqli(self):
-        """
-        just grabs all websites in server with php?id= dork
-        for scanning for error based sql injection
-        """
-        page = 1
-        lista = []
-        while page <= 101:
-            try:
-                bing = "http://www.bing.com/search?q=ip%3A" + \
-                    self.serverip + "+php?id=&count=50&first=" + str(page)
-                openbing = urllib2.urlopen(bing)
-                readbing = openbing.read()
-                findwebs = re.findall('<h2><a href="(.*?)"', readbing)
-                for i in range(len(findwebs)):
-                    x = findwebs[i]
-                    lista.append(x)
-            except:
-                pass
-            page += 50
-        lista = unique(lista)
-        self.checkSqli(lista)
-
-    def checkSqli(self, s):
-        """
-        checks for error based sql injection,
-        most of the codes here are from webpwn3r
-        project the one who has found an lfi in
-        yahoo as i remember, you can find a separate
-        tool in my blog
-        """
-        clearScr()
-        print "[~] Checking SQL injection"
-        payloads = ["3'", "3%5c", "3%27%22%28%29", "3'><",
-                    "3%22%5C%27%5C%22%29%3B%7C%5D%2A%7B%250d%250a%3C%2500%3E%25bf%2527%27"]
-        check = re.compile(
-            "Incorrect syntax|mysql_fetch|Syntax error|Unclosed.+mark|unterminated.+qoute|SQL.+Server|Microsoft.+Database|Fatal.+error", re.I)
-        for url in s:
-            try:
-                for param in url.split('?')[1].split('&'):
-                    for payload in payloads:
-                        power = url.replace(param, param + payload.strip())
-
-                        html = urllib2.urlopen(power).readlines()
-                        for line in html:
-                            checker = re.findall(check, line)
-                            if len(checker) != 0:
-                                print ' [*] SQLi found -> ', power
-            except:
-                pass
-
-
-def portScanner(self, mode, ran):
-    """
-    simple port scanner works with range of ports
-    or with common ports (al-swisre idea)
-    """
-    clearScr()
-    print "[~] Scanning Ports"
-
-    def do_it(ip, port):
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-        sock = sock.connect_ex((ip, port))
-        if sock == 0:
-            print " [*] Port %i is open" % port
-
-    if mode == 1:
-        a = ran.split('-')
-        start = int(a[0])
-        end = int(a[1])
-        for i in range(start, end):
-            do_it(self.serverip, i)
-    elif mode == 2:
-        for port in [80, 21, 22, 2082, 25, 53, 110, 443, 143]:
-
-            do_it(self.serverip, port)
 
 
 ############################
@@ -1499,11 +1440,13 @@ def maine():
         if choose == "4":
             about()
         if choose == "99":
+            clearScr()
             menu()
         con = raw_input('Continue [Y/n] -> ')
         if con[0].upper() == 'N':
             exit()
         if con[0].upper() == 'Y':
+            
             maine()
 
 
