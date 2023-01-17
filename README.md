@@ -13,7 +13,7 @@
 
 <br>
 
-### `<p align="center">`DARKARMY`<p align="center">`
+### <p align="center">`DARKARMY`<p align="center">
 
 <p align=center>
   <a href="https://www.instagram.com/0x1ucif3r"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
@@ -22,13 +22,13 @@
   <a href="https://github.com/1ucif3r/network/members"><img title="Forks" src="https://img.shields.io/github/forks/D4RK-4RMY/DARKARMY?color=red&style=flat-square"></a>
   <a href="https://github.com/1ucif3r"><img title="Watching" src="https://img.shields.io/github/watchers/D4RK-4RMY/DARKARMY?label=Watchers&color=blue&style=flat-square"></a>
 
-###### `<p align="center">`*This is official repository maintained by Us.*
+###### <p align="center"> *This is official repository maintained by Us.*
 
-###### `<p align="center">` [**D4RK4RMY**](https://dark4rmy.in/) ❤️ By [**1ucif3r**](https://www.instagram.com/0x1ucif3r/)
+###### <p align="center"> [**D4RK4RMY**](https://dark4rmy.in/) ❤️ By [**1ucif3r**](https://www.instagram.com/0x1ucif3r/)
 
-###### `<p align="center">` *You can check our [WebSite](https://dark4rmy.in/)✌*
+###### <p align="center"> *You can check our [WebSite](https://dark4rmy.in/)✌*
 
-###### `<p align="center">`DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs`<p align="center">`
+###### <p align="center">`DARKARMY is a Collection Of Penetration Testing Tools, you will have every script that a hacker needs`<p align="center">
 
 ## DARKARMY MENU :
 
@@ -175,7 +175,7 @@ Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
 Contributor : [Mr.robot](https://github.com/0xMrR0b0t)
 
-### `<h2 align="center">`😈 Visit 😈  `</h2>`
+### <h2 align="center"> 😈 Visit 😈  </h2>
 
 <p align="center">
 <a href="https://dark4rmy.in/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
