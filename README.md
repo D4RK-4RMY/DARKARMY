@@ -178,3 +178,7 @@ Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 <p align="center">
 <a href="https://dark4rmy.in/"><img title="D4RK4RMY" src="https://img.shields.io/badge/D4RK4RMY-%23E4405F.svg?&style=for-the-badge&logo=web&logoColor=white"></a>
 </p>
+
+### Support Me
+
+<a href="https://www.buymeacoffee.com/0x1ucif3r"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
