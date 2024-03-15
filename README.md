@@ -173,8 +173,6 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 Developer / Author: [1ucif3r](https://github.com/1ucif3r)
 
-Contributor : [Mr.robot](https://github.com/0xMrR0b0t)
-
 ### <h2 align="center"> 😈 Visit 😈  </h2>
 
 <p align="center">
