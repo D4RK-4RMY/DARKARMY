@@ -109,7 +109,7 @@ darkarmylogo = color_random[0] + '''
 '''
 def menu():
     print (darkarmylogo + """\033[1m
-   [!] Coded By 1ucif3r [!] https://dark4rmy.in [!]
+   [!] Coded By 1ucif3r [!] github.com/D4RK-4RMY/DARKARMY [!]
 \033[0m
    {1}--Information Gathering
    {2}--Password Attacks
@@ -123,9 +123,10 @@ def menu():
    {10}-DarkArmy Tools
    {11}-1ucif3r's Tools
    {0}--Update The DARKARMY 
+
    {99}-Exit
  """)
-    choice = raw_input("Dark4rmy >> ")
+    choice = raw_input(color_random[0] + "Darkarmy >> ")
     os.system('clear')
     if choice == "1":
         info()
@@ -171,7 +172,7 @@ def ddos():
          
  \033[0m''')
     print("  {99}-Back To Main Menu \n\n")
-    choice2 = raw_input("DDOS >> ")
+    choice2 = raw_input(color_random[0] + "DDOS >> ")
 
     if choice2 == "99":
         clearScr()
@@ -195,7 +196,7 @@ def rat():
          
  \033[0m''')
     print("  {99}-Back To Main Menu \n\n")
-    choice2 = raw_input("RAT >> ")
+    choice2 = raw_input(color_random[0] +"RAT >> ")
 
     if choice2 == "99":
         clearScr()
@@ -219,7 +220,7 @@ def bugbounty():
          
  \033[0m''')
     print("  {99}-Back To Main Menu \n\n")
-    choice2 = raw_input("BugBounty >> ")
+    choice2 = raw_input(color_random[0] +"BugBounty >> ")
 
     if choice2 == "99":
         clearScr()
@@ -244,10 +245,11 @@ def lucifer():
  \033[0m''')
     print("   {1}--AirCrackAuto(Wifi Hacking)")
     print("   {2}--Obfuscator")
-    print("   {3}--SQLiScanner (SOON)")
-    print("   {4}--Crypter (SOON) \n")
+    print("   {3}--Lumin (Steganography tool)")
+    print("   {4}--SQLiScanner (SOON)")
+    print("   {5}--Crypter (SOON) \n")
     print("   {99}-Return to main menu \n\n ")
-    choice11 = raw_input("1ucif3r >> ")
+    choice11 = raw_input(color_random[0] +"1ucif3r >> ")
     os.system('clear')
     if choice11 == "1":
         clearScr()
@@ -257,8 +259,11 @@ def lucifer():
         obf()
     if choice11 == "3":
         clearScr()
-        sqliscanner()
+        lumin()
     if choice11 == "4":
+        clearScr()
+        sqliscanner()
+    if choice11 == "5":
         clearScr()
         crypter()
     elif choice11 == "99":
@@ -275,11 +280,21 @@ def aircrack():
     choiceupdate = raw_input("Continue Y / N: ")
     if choiceupdate in yes:
         os.system("git clone https://github.com/1ucif3r/aircrackauto.git")
-        os.system("cd aircrackauto && bash install.sh")
+        os.system("cd aircrackauto && chmod +x install.sh")
+        time.sleep(3)
+        os.system("bash aircrackauto/install.sh")
+        time.sleep(3)
         os.system("aircrackauto")
         clearScr()
         lucifer()
         
+def lumin():
+    os.system("git clone https://github.com/1ucif3r/Lumin.git")
+    os.system("cd Lumin && pip3 install -r requirements.txt")
+    os.system("cd Lumin && python3 main.py")
+    clearScr()
+    lucifer()
+    
 def obf():
     os.system("git clone https://github.com/1ucif3r/Obfuscator.git")
     os.system("cd Obfuscator && python3 obfuscator.py")
@@ -329,7 +344,7 @@ def dtools():
     print("   {1}--DarkScan ")
     print("   {2}--DarkTor (Need Update)")
     print("   {99}-Back To The Main Menu \n\n")
-    choice4 = raw_input("Dark4rmy >> ")
+    choice4 = raw_input(color_random[0] +"Dark4rmy >> ")
     if choice4 == "1":
         clearScr()
         dscan()
@@ -555,7 +570,7 @@ def webhack():
         "   {11}-BruteX - Automatically brute force all services running on a target")
     print("   {12}-Arachni - Web Application Security Scanner Framework \n ")
     print("   {99}-Back To Main Menu \n")
-    choiceweb = raw_input("Web >> ")
+    choiceweb = raw_input(color_random[0] +"Web >> ")
     if choiceweb == "1":
         clearScr()
         maine()
@@ -973,7 +988,7 @@ def info():
     print("  {9}--Scan A server's Users  ")
     print("  {10}-Crips\n  ")
     print("  {99}-Back To Main Menu \n\n")
-    choice2 = raw_input("InformationG. >> ")
+    choice2 = raw_input(color_random[0] +"InformationG. >> ")
     if choice2 == "1":
         os.system('clear')
         nmap()
@@ -1059,7 +1074,7 @@ def passwd():
     print("   {2}--Ncrack \n ")
 
     print("   {99}-Back To Main Menu \n")
-    choice3 = raw_input("Passwd >> ")
+    choice3 = raw_input(color_random[0] +"Passwd >> ")
     if choice3 == "1":
         clearScr()
         cupp()
@@ -1113,7 +1128,7 @@ def wire():
     print("   {3}--Bluetooth Honeypot GUI Framework")
     print("   {4}--Fluxion\n")
     print("   {99}-Back To The Main Menu \n\n")
-    choice4 = raw_input("Wireless >> ")
+    choice4 = raw_input(color_random[0] +"Wireless >> ")
     if choice4 == "1":
         clearScr()
         reaver()
@@ -1159,7 +1174,7 @@ def exp():
     print("   {8}--Bruteforce the Android Passcode given the hash and salt")
     print("   {9}--Joomla SQL injection Scanner \n ")
     print("   {99}-Go Back To Main Menu \n\n")
-    choice5 = raw_input("Exploitation >> ")
+    choice5 = raw_input(color_random[0] +"Exploitation >> ")
     if choice5 == "2":
         clearScr()
         sqlmap()
@@ -1215,7 +1230,7 @@ def social():
     print("   {4}--ZPISHER")
     #print("   {4}--SMTP Mailer \n ")
     print("   {99}-Back To Main Menu \n\n")
-    choice6 = raw_input("SocialEngineering >> ")
+    choice6 = raw_input(color_random[0] +"SocialEngineering >> ")
     if choice6 == "1":
         clearScr()
         setoolkit()
@@ -1276,7 +1291,7 @@ def zpisher():
     print("   {1}--Kali Linux ")
     print("   {2}--Termux")
     print("   {99}-Back To Main Menu \n")
-    choiceweb = raw_input("ZPhisher~# ")
+    choiceweb = raw_input(color_random[0] +"ZPhisher~# ")
     if choiceweb == "1":
         clearScr()
         zpishkali()
