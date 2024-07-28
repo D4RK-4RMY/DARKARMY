@@ -161,7 +161,7 @@ Open [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 ## YouTube Demo :
 
-  https://youtu.be/zpkHFaSQx2U
+https://youtu.be/e0SiZPQVVW8?si=VSPh6AWQDd3huJ5c
 
 ## ScreenShot :
 
